@@ -5,10 +5,10 @@ Use:
 The mixin provided is compatible with DRF's ModelSerializer.  For example:
 
 
+```python
 from rest_framework import serializers
 from rest_framework_flatbuffers.django import FBSerializerMixin
 
-```python
 class MyModelSerializer(serializers.ModelSerializer, FBSerializerMixin):
 
     
